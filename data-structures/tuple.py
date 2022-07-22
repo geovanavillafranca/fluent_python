@@ -14,6 +14,7 @@ traveler_ids = [('USA', '31195855'), ('BRA', 'CE342567'), ('ESP', 'XDA205856')]
 
 # % formatting operator understands tuples and treats each item as a separate field
 for passport in sorted(traveler_ids):
+    print('*************************')
     print( '%s/%s' % passport)
 
 """
